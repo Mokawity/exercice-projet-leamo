@@ -1,0 +1,31 @@
+.cocktail-section {
+  position: relative;
+}
+.cocktail-shape {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.cocktail-shape img {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.cocktail-txt {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: CoolveticaRg-Bold;
+  font-size: 15px;
+}
