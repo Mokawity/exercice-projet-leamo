@@ -1,8 +1,8 @@
-.cocktail-section {
+.vente-section {
   position: relative;
 }
 
-.cocktail-title {
+.vente-title {
   font-family: CoolveticaRg-Regular;
   font-size: 20px;
   color: #000000;
@@ -11,7 +11,7 @@
   padding-bottom: 30px;
 }
 
-.cocktail-shape {
+.vente-shape {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -21,13 +21,14 @@
   width: 100%;
   overflow: hidden;
 }
-.cocktail-shape img {
+.vente-shape img {
   position: relative;
   display: block;
   height: 100%;
   width: 100%;
 }
-.cocktail-txt {
+
+.vente-txt {
   position: absolute;
   z-index: 10;
   top: 50%;
