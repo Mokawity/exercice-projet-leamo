@@ -55,3 +55,9 @@
   height: 150px;
   text-align: center;
 }
+
+@media (min-width: 1000px) {
+  .vente-section-all {
+    display: none;
+  }
+}
