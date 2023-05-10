@@ -48,12 +48,42 @@
   text-align: center;
 }
 
+.rounded-button-blue {
+  background-color: #ededed;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 66px;
+}
+
 .orange-section {
   background-image: url(/src/img/orange-section.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 150px;
   text-align: center;
+}
+
+.rounded-button-orange {
+  background-color: #ededed;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 66px;
 }
 
 @media (min-width: 1000px) {

@@ -16,5 +16,23 @@
 .drink-section-img {
   align-items: center;
   width: 300px;
-  margin-left: 30%;
+  margin: auto;
+}
+
+.drink-section-img-dt {
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .drink-section-img-dt {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .drink-section-name-dt {
+    display: none;
+  }
 }
