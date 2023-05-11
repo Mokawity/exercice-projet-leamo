@@ -1,12 +1,22 @@
 @media (max-width: 1000px) {
-  .header-desktop-img {
+  .header-img-dt {
     display: none;
   }
+}
+
+.header-img-dt {
 }
 
 .nav-container {
   background-color: red;
   height: 500px;
+}
+
+@media (min-width: 1000px) {
+  .nav-container {
+    background-color: red;
+    height: 600px;
+  }
 }
 
 .nav-title {
@@ -31,11 +41,27 @@
   padding-bottom: 15px;
 }
 
+@media (min-width: 1000px) {
+  .header-text {
+    font-size: 20px;
+  }
+  .header-text-title {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .nav-title {
+    font-size: 50px;
+  }
+  .img-header {
+    margin-top: 10px;
+  }
+}
+
 .language-button {
   display: none;
 }
 
 .img-header {
-  padding-bottom: 65px;
   padding-top: 30px;
+  padding-bottom: 20px;
 }

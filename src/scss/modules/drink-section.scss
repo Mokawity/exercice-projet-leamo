@@ -21,8 +21,11 @@
 
 .drink-section-img-dt {
   align-items: center;
-  width: 300px;
+  width: 330px;
   margin: auto;
+  position: relative;
+  top: 85px;
+  left: 20px;
 }
 
 @media (max-width: 1000px) {
