@@ -5,18 +5,27 @@
 }
 
 .header-img-dt {
+  max-width: auto;
 }
 
 .nav-container {
   background-color: red;
-  height: 500px;
 }
 
 @media (min-width: 1000px) {
   .nav-container {
     background-color: red;
-    height: 600px;
   }
+}
+
+@media (min-width: 1000px) {
+  .nav a {
+    font-size: 30px;
+  }
+}
+
+.header-img-dt {
+  width: 50vw;
 }
 
 .nav-title {
@@ -31,8 +40,8 @@
   font-family: CoolveticaBk-Regular;
   font-size: 15px;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
 
 .header-text-title {
@@ -50,7 +59,8 @@
     padding-top: 20px;
   }
   .nav-title {
-    font-size: 50px;
+    font-size: 80px;
+    padding-bottom: 5s0px;
   }
   .img-header {
     margin-top: 10px;
