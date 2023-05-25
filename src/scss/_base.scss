@@ -19,6 +19,7 @@ html {
   font-size: 15px;
   font-family: "coolvetica", sans-serif;
   font-weight: 300;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 1000px) {
@@ -45,6 +46,20 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  font-family: "coolvetica", sans-serif;
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+hr {
+  border-color: black;
+  border-width: 0.5px;
+  margin-bottom: 25px;
+  margin-top: 15px;
 }
 
 /* ====================================

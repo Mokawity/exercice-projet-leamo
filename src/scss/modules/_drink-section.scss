@@ -14,6 +14,23 @@
   padding-bottom: 35px;
 }
 
+@media (max-width: 1000px) {
+  .drink-section-name {
+    display: none;
+  }
+}
+
+.name-change {
+  padding-bottom: 35px;
+  font-weight: 700;
+}
+
+@media (min-width: 1000px) {
+  .name-change {
+    display: none;
+  }
+}
+
 .drink-section-img {
   align-items: center;
   width: 280px;
@@ -45,4 +62,9 @@
   .drink-section-title {
     font-size: 30px;
   }
+}
+
+.choosen-drink,
+drink-section-name-dt {
+  font-weight: 700;
 }

@@ -5,11 +5,17 @@
 .valeur-title {
   font-family: "coolvetica", sans-serif;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   color: #000000;
   letter-spacing: 0;
   text-align: center;
   padding-bottom: 20px;
+}
+
+@media (min-width: 1000px) {
+  .valeur-title {
+    font-size: 30px;
+  }
 }
 
 .valeur-img {
